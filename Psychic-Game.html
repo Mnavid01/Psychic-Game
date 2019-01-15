@@ -1,36 +1,28 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>The Psychic Game</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="Psychic-Game.js"></script>
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word-Guess-Game</title>
+    
+    
 </head>
-
 <body>
-    <div class="container">
-        <div class="col-md-12 content">
-            <h1>The Psychic Game</h1>
-            <p>Guess what letter I'm thinking of...</p>
-            <h2>Press any letter to begin.</h2>
 
-            <p id="wins">Wins: 0</p>
-
-            <p id="losses">Losses: 0</p>
-
-            <p id="guesses-left">Guesses Left: 10</p>
-
-            <p id="guesses-so-far">Your Guesses So Far:</p>
-        </div>   
+    <div id="container">
+        <div class="main-container">
+            <h1>Seasons Word Guess Game</h1>
+            <h3 class="ptSans">Press the keyboard to guess the letters!</h3>
+            <h3 class="bottom ptSans">Hint: Words are based on seasons</h3>
+            <p id="guess"></p>
+            <p class="size">Guesses Left: <span id="left" class="sizeNumber ptSans"></span></p>
+            <p class="size">Wrong Letters: <span id="wrong" class="sizeNumber ptSans"></span></p>
+            <p class="size">Win: <span id="wins" class="sizeNumber ptSans"></span>Lose: <span id="losses" class="sizeNumber ptSans"></span></p>
+            <div id="img"></div>
+        </div>
     </div>
 
-    <div class="footer">
-		<p>&#169; 2018 Michael Rezaee</p>
-	</div>
-  
+    <script src="C:\Users\SexyBoi\Desktop\Psychic-Game\Psychic-Game.js"></script>
+    
 </body>
 </html>
